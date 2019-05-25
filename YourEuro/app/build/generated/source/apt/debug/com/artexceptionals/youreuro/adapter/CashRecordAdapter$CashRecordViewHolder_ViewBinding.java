@@ -26,6 +26,7 @@ public class CashRecordAdapter$CashRecordViewHolder_ViewBinding implements Unbin
     target.note = Utils.findRequiredViewAsType(source, R.id.note_tv, "field 'note'", TextView.class);
     target.amount = Utils.findRequiredViewAsType(source, R.id.amount_tv, "field 'amount'", TextView.class);
     target.date = Utils.findRequiredViewAsType(source, R.id.date_tv, "field 'date'", TextView.class);
+    target.currencySymbol = Utils.findRequiredViewAsType(source, R.id.currency_tv, "field 'currencySymbol'", TextView.class);
   }
 
   @Override
@@ -41,5 +42,6 @@ public class CashRecordAdapter$CashRecordViewHolder_ViewBinding implements Unbin
     target.note = null;
     target.amount = null;
     target.date = null;
+    target.currencySymbol = null;
   }
 }

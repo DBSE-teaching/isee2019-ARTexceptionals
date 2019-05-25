@@ -5,6 +5,7 @@ import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import java.lang.IllegalStateException;
@@ -23,7 +24,7 @@ public class MainActivity_ViewBinding implements Unbinder {
     this.target = target;
 
     target.mRecentsRecyclerView = Utils.findRequiredViewAsType(source, R.id.recent_history_rv, "field 'mRecentsRecyclerView'", RecyclerView.class);
-    target.mAccountsRecyclerView = Utils.findRequiredViewAsType(source, R.id.account_balance_rv, "field 'mAccountsRecyclerView'", RecyclerView.class);
+    target.noRecordsTextView = Utils.findRequiredViewAsType(source, R.id.noRecords_tv, "field 'noRecordsTextView'", TextView.class);
   }
 
   @Override
@@ -34,6 +35,6 @@ public class MainActivity_ViewBinding implements Unbinder {
     this.target = null;
 
     target.mRecentsRecyclerView = null;
-    target.mAccountsRecyclerView = null;
+    target.noRecordsTextView = null;
   }
 }

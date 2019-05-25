@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kartikprabhu/Workspace/Android/ISEE project/isee2019-ARTexceptionals/YourEuro/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "C:\\Users\\HP\\AndroidStudioProjects\\isee2019-ARTexceptionals\\YourEuro\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/kartikprabhu/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/c242a1aa3a323a74f969ba4989ccf42a/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-28.0.0.aar\\10438d6e2cedd87054e41477c5b03bfe\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/kartikprabhu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/915c9cf04d817739ee28383afb76809a/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7cd940f46e3cca56c607adf104d6a7e5\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
